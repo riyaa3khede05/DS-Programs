@@ -2,8 +2,8 @@
 #define MAX 50
 
 int arr[MAX];
-int top1 = -1;         // Stack 1 starts from left
-int top2 = MAX;        // Stack 2 starts from right
+int top1 = -1;         
+int top2 = MAX;        
 
 void push1(int x) {
     if (top1 + 1 == top2) {
